@@ -1,0 +1,30 @@
+img{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+#img1{
+    object-fit: fill;
+}
+
+#img2{
+    object-fit: contain;
+    object-position: 0px 90px;
+}
+
+#img3{
+    object-fit: cover;
+    object-position: -270px 0px;
+}
+
+#img4{
+    object-fit: none;
+    object-position: 0px 0px;
+}
+
+#img5{
+    object-fit: scale-down;
+    object-position: 0px;
+}
+
